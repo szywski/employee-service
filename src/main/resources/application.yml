@@ -2,4 +2,4 @@ spring:
   application:
     name: employee-service
   config:
-    import: "optional:configserver:http://localhost:8088"
+    import: "optional:configserver:https://configuration-service-6d7884366eca.herokuapp.com"
