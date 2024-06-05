@@ -35,7 +35,7 @@ public class EmployeeController {
     }
 
 
-    @GetMapping("/backoffice/{id}")
+    @GetMapping("/backoffice/{backofficeId}")
     public List<Employee> getEmployeesForBackoffice(@PathVariable Long backofficeId) {
         return repository.findByBackoffice(backofficeId);
     }
