@@ -1,5 +1,5 @@
 spring:
   application:
-    name: employee-service
+    name: EMPLOYEE-SERVICE
   config:
     import: "optional:configserver:https://configuration-service-6d7884366eca.herokuapp.com"
